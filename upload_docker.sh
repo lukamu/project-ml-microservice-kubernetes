@@ -6,10 +6,15 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
+dockerpath=lukamu/ml-microservice
+imagename="ml-microservice"
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker login
+docker tag $imagename $dockerpath
 
 # Step 3:
 # Push image to a docker repository
+docker push $dockerpath

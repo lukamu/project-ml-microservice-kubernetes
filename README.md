@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/lukamu/project-ml-microservice-kubernetes.svg?style=plastic&logo=appveyor)](https://circleci.com/gh/lukamu/project-ml-microservice-kubernetes)
+[![CircleCI](https://circleci.com/gh/lukamu/project-ml-microservice-kubernetes.svg?style=svg)](https://circleci.com/gh/lukamu/project-ml-microservice-kubernetes)
 
 ## Project Overview
 
